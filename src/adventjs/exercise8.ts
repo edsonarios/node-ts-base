@@ -1,4 +1,4 @@
-import { Ctest } from './test'
+import { Ctest } from '../test'
 
 function drawRace(indices: number[], length: number): string {
   let response = ''
@@ -18,7 +18,7 @@ function drawRace(indices: number[], length: number): string {
     response += line
     if (index !== indices.length - 1) response += '\n'
   }
-  console.log(response)
+  // console.log(response)
   return response
 }
 
