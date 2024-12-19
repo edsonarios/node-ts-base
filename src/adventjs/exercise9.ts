@@ -1,4 +1,4 @@
-import { Ctest } from './test'
+import { Ctest } from '../test'
 
 type Board = string[]
 type Movement = 'U' | 'D' | 'R' | 'L'
